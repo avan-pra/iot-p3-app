@@ -12,4 +12,4 @@ def hello_world():
 def version():
     return jsonify({"status":"ok", "message": VERSION})
 
-app.run(host='0.0.0.0', port=80)
+app.run(host='0.0.0.0', port=8080)
